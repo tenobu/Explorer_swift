@@ -689,6 +689,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="folder_Push:" target="XfG-lQ-9wD" id="4Qh-r4-7TJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -700,6 +703,9 @@
                             <constraint firstItem="BUg-Px-lOH" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="wea-A3-RyE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="box_Directory" destination="zmt-JB-2uX" id="F2w-P5-zwl"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

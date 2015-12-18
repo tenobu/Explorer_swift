@@ -49,6 +49,7 @@
 		987FF54C1C203EAC00D8C397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		987FF5581C20478500D8C397 /* little25_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little25_1.png; path = ../../../../../Documents/Images/little25_1.png; sourceTree = "<group>"; };
 		987FF55A1C21A2DC00D8C397 /* DirectoryObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryObj.swift; sourceTree = "<group>"; };
+		987FF55C1C2432F700D8C397 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +102,12 @@
 			children = (
 				987FF52D1C203EAB00D8C397 /* AppDelegate.swift */,
 				987FF52F1C203EAB00D8C397 /* ViewController.swift */,
+				987FF55A1C21A2DC00D8C397 /* DirectoryObj.swift */,
 				987FF5311C203EAB00D8C397 /* Assets.xcassets */,
 				987FF5331C203EAB00D8C397 /* Main.storyboard */,
 				987FF5361C203EAB00D8C397 /* Info.plist */,
 				987FF5581C20478500D8C397 /* little25_1.png */,
-				987FF55A1C21A2DC00D8C397 /* DirectoryObj.swift */,
+				987FF55C1C2432F700D8C397 /* MyPlayground.playground */,
 			);
 			path = Explorer;
 			sourceTree = "<group>";

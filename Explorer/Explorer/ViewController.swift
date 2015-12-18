@@ -10,10 +10,20 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+	var dirObj = DirectryObj()
+	
+	@IBOutlet weak var box_Directory: NSBox!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
 		// Do any additional setup after loading the view.
+		//dirObj = DirectryObj()
+		dirObj.initialize()
+		
+		box_Directory.title = dirObj.string_Directory
+		
+		dirObj.setBox(box_Directory)
 	}
 
 	override var representedObject: AnyObject? {
@@ -22,6 +32,9 @@ class ViewController: NSViewController {
 		}
 	}
 
+	@IBAction func folder_Push(sender: AnyObject) {
+		print("push")
+	}
 
 }
 

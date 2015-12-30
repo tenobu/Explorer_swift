@@ -23,7 +23,7 @@ class ViewController: NSViewController {
 		
 		box_Directory.title = dirObj.string_Directory
 		
-		dirObj.setBox(box_Directory)
+		//dirObj.setBox(box_Directory)
 	}
 
 	override var representedObject: AnyObject? {

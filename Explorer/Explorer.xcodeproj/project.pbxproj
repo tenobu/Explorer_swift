@@ -15,6 +15,7 @@
 		987FF54B1C203EAC00D8C397 /* ExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987FF54A1C203EAC00D8C397 /* ExplorerUITests.swift */; };
 		987FF5591C20478500D8C397 /* little25_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 987FF5581C20478500D8C397 /* little25_1.png */; };
 		987FF55B1C21A2DC00D8C397 /* DirectoryObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987FF55A1C21A2DC00D8C397 /* DirectoryObj.swift */; };
+		98B8AA471C337F9F0087B94F /* Folder_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 98B8AA461C337F9F0087B94F /* Folder_open.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		987FF5581C20478500D8C397 /* little25_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little25_1.png; path = ../../../../../Documents/Images/little25_1.png; sourceTree = "<group>"; };
 		987FF55A1C21A2DC00D8C397 /* DirectoryObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryObj.swift; sourceTree = "<group>"; };
 		987FF55C1C2432F700D8C397 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		98B8AA461C337F9F0087B94F /* Folder_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder_open.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		987FF52C1C203EAB00D8C397 /* Explorer */ = {
 			isa = PBXGroup;
 			children = (
+				98B8AA451C337EEA0087B94F /* Images */,
 				987FF52D1C203EAB00D8C397 /* AppDelegate.swift */,
 				987FF52F1C203EAB00D8C397 /* ViewController.swift */,
 				987FF55A1C21A2DC00D8C397 /* DirectoryObj.swift */,
@@ -128,6 +131,14 @@
 				987FF54C1C203EAC00D8C397 /* Info.plist */,
 			);
 			path = ExplorerUITests;
+			sourceTree = "<group>";
+		};
+		98B8AA451C337EEA0087B94F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				98B8AA461C337F9F0087B94F /* Folder_open.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 				987FF5321C203EAB00D8C397 /* Assets.xcassets in Resources */,
 				987FF5351C203EAB00D8C397 /* Main.storyboard in Resources */,
 				987FF5591C20478500D8C397 /* little25_1.png in Resources */,
+				98B8AA471C337F9F0087B94F /* Folder_open.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +497,7 @@
 				987FF5511C203EAC00D8C397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		987FF5521C203EAC00D8C397 /* Build configuration list for PBXNativeTarget "ExplorerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +506,7 @@
 				987FF5541C203EAC00D8C397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		987FF5551C203EAC00D8C397 /* Build configuration list for PBXNativeTarget "ExplorerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +515,7 @@
 				987FF5571C203EAC00D8C397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
